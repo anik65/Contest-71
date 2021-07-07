@@ -22,4 +22,11 @@ $('.bxslider').bxSlider({
     auto: true,
 
 });
- 
+$(".sider_body").on("mouseover", function () {
+    $(".sider_body").css({
+        'left': "80%",
+        'animation-name': 'fadeInRight',
+        'animation-duration':'1s'
+
+    });
+});
